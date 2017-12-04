@@ -1,13 +1,15 @@
 import java.util.ArrayList;
 import java.util.HashMap;
-//import java.util.Scanner;
+import java.util.Random;
+
+import java.util.Scanner;
 public class HW4 {
 	public static void main(String[] args) {
 		int nDeck=4;
 		Deck deck=new Deck(nDeck);
 		//TODO: please check your output, make sure that 
-		Player player1=new Player("Player 1",100);
-		Player player2=new Player("Player 2",300);
+		player player1=new player("Player 1",100);
+		player player2=new player("Player 2",300);
 		player1.sayHello();
 		player2.sayHello();
 		int p1Bet=player1.makeBet();
@@ -90,3 +92,4 @@ public class HW4 {
 	
 
 }
+
